@@ -1,0 +1,13 @@
+package day0523;
+
+import java.util.Scanner;
+
+public class ScanTest {
+	public static void main(String[] args) {
+		String source = "1 3 5";
+		Scanner sc = new Scanner(source);
+		
+		
+		
+	}
+}

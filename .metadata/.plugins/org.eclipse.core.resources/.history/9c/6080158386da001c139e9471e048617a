@@ -1,0 +1,19 @@
+package day0523;
+
+public class Memo {
+	public static void main(String[] args) {
+
+		StringBuilder sb = new StringBuilder();
+		
+		String num = "990925-1012999";
+		
+		System.out.println(num.replace('-', ' '));
+		
+		//강의풀이
+		String s1 = "990925-1012999";
+		String s2 = s1.substring(0,6) + ' ' + s1.substring(8);
+		
+		
+		
+	}
+}

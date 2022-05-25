@@ -1,0 +1,9 @@
+package day0523;
+
+public class Scanner {
+	public static void main(String[] args) {
+		String source = "1 3 5";
+		
+		
+	}
+}

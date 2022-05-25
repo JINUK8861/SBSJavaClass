@@ -1,0 +1,15 @@
+package zoo;
+
+public class Cat {
+	public static void main(String[] args) {
+		
+	}
+	
+	public void makeSound() {
+		System.out.println("야옹");
+	}
+	
+	void makeHappy() {
+		System.out.println("스마일");
+	}
+}

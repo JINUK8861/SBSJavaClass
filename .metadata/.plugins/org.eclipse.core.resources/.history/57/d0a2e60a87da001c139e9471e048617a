@@ -1,0 +1,26 @@
+package day0523;
+
+public class Memo {
+	public static void main(String[] args) {
+
+		System.out.println("---자가풀이---");
+		String num = "990925-1012999";
+		System.out.println(num.replace('-', ' '));
+		
+		System.out.println("---강의풀이---");
+		String s1 = "990925-1012999";
+		String s2 = s1.substring(0,6) + ' ' + s1.substring(7);
+		System.out.println(s2);
+		
+		System.out.println("+");
+		StringBuilder sb = new StringBuilder();
+		sb.append(990925).append('-').append(1012999);
+		System.out.println(sb.toString());
+		System.out.println("---지우고 공백으로 채우기---");
+		sb.delete(6, 7).insert(6, ' ');
+		System.out.println(sb.toString());
+		
+		
+		
+	}
+}
